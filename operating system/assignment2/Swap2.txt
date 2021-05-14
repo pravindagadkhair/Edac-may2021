@@ -1,0 +1,21 @@
+Q7)swap without using immediate variable
+=========================================
+swapping without third variable
+===================================
+echo "enter first no"
+read a
+echo "enter second no"
+read b
+echo "before swapping $a and $b"
+a=`expr $a + $b`
+b=`expr $a - $b`
+a=`expr $a - $b`
+echo "after swapping $a and $b"
+===================================
+output:
+enter first no
+10
+enter second no
+20
+before swapping 10 and 20
+after swapping 20 and 10

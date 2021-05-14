@@ -1,0 +1,14 @@
+Q6)swap 2nos.using third variable
+==========================================
+swapping using 3rd variable
+====================================
+ a=10
+ b=20
+echo "before swpping a=$a & b=$b"
+t=$a
+a=$b
+b=$t
+echo "after swapping a=$a b=$b"
+===================================
+before swpping a=10 & b=20
+after swapping a=20 b=10

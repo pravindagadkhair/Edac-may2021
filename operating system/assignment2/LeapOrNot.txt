@@ -1,0 +1,27 @@
+Q10)find whether year is leap year or not
+========================================
+Leap year/not
+====================================
+echo "enter a year"
+read y
+if [ `expr $y % 4` -eq 0 ]
+then
+        echo "Leap year"
+elif [ `expr $y % 100` -eq 0 ]
+then
+        echo "Not Leap year"
+elif [ `expr $y % 400` -eq 0 ]
+then
+        echo "leap year"
+else
+        echo "not leap year"
+fi
+====================================
+output:
+enter a year
+1996
+Leap year
+=====
+enter a year
+2001
+not leap year
